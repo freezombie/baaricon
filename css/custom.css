@@ -1,0 +1,762 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 30.11.2017, 16:22:29
+    Author     : freez / rabbana
+*/
+
+/**Body**/
+body
+{
+/** background-color: rgba(0,0,0,1);
+    background-image: url("../img/luxury.jpg"); */
+    background-image: url("../img/baaricontausta_vignette2.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2, h3, h4, p
+{
+/*  font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif; */
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 200;
+}
+
+h3, h1, a
+{
+    color: #b60404 !important;
+}
+
+h3
+{
+    font-size: 3em !important;
+}
+
+p, label
+{
+    color: #f7f7f7;
+    font-size: 1.5em;
+}
+
+sub
+{
+  color: #f7f7f7
+}
+
+/**Navigaatio**/
+
+.navbar-inverse
+{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,0.7)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,0.7)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,0.7)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.7)); /*Standard*/
+  /*height: 7vh;*/
+  border-radius: 0rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: none;
+  font-family: 'Quicksand'; /**, sans-serif; **/
+  font-size: 1.1em;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color: #dc3545;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color: rgba(255,255,255,1.0) !important;
+}
+
+.navbar-right
+{
+    padding-right: 5vw;
+}
+
+.navbar-inverse .navbar-brand
+{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    color: #b60404;
+}
+
+.dropdown-menu
+{
+    background-color: black;
+}
+
+.dropdown-menu>li>a:hover
+{
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.dropdown-menu>li>a
+{
+    color: rgba(255,255,255,1.0);
+}
+
+/**Jumbotron**/
+
+.jumbotron
+{
+    padding: 0px;
+}
+
+.jumbotron img
+{
+    min-width: 100%;
+}
+
+.videojumbotron
+{
+    position:absolute;
+    margin:0;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 0rem;
+}
+
+.videocontainer
+{
+    position: relative;
+    height: inherit;
+    z-index: -1;
+}
+
+#video-background
+{
+    position: absolute;
+    top: -75%;
+    left: 0;
+    /**
+    position: relative;
+    top: 0;
+    left: 0; **/
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    /*filter:opacity(90%);*/
+}
+
+.TextContent
+{
+  text-align: left;
+}
+
+.container
+{
+    position: relative;
+    z-index: 0; /*
+    top: -325px; */
+    text-align: center;
+}
+
+.container img
+{
+  height: 15em;
+}
+
+.container h4
+{
+  font-family: advent pro;
+  color: #b60404;
+  font-size: 5em;
+  font-weight: 800;
+}
+
+/**Content**/
+
+.content
+{
+    position: relative;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    min-height: 50vh;
+    height: 100%; /*
+    margin: auto;
+    padding-bottom: 25vh;
+    background: rgba(255,255,255,0.2);
+    background: -webkit-linear-gradient(to bottom, rgba(170,170,170,0.1), rgba(170,170,170,0.0));
+    background: -o-linear-gradient(to bottom, rgba(170,170,170,0.1), rgba(170,170,170,0.0));
+    background: -moz-linear-gradient(to bottom, rgba(170,170,170,0.1), rgba(170,170,170,0.0));
+    background: linear-gradient(to bottom, rgba(170,170,170,0.1), rgba(170,170,170,0.0)); */
+}
+
+.maincontent
+{
+    top: 400px !important;
+    width: 80vw;
+    margin: auto;
+/*  text-align: justify;
+    text-justify: inter-word; */
+}
+
+.conitea
+{
+    min-height: 100vh;
+}
+
+.socialcontent
+{
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+    width: 80vw;
+    min-height: 50vh;
+/*  background-color: rgba(255, 255, 255,0.8); */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(49%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.socialstuff
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.socialstuff iframe
+{
+    min-width: 320px !important;
+    min-height: 500px;
+    height: 500px !important;
+    margin: 7.5px;
+}
+
+.socialstuff .instagram
+{
+    background-color: #292F33;
+    height: 500px;
+    border-radius: 7px;
+}
+
+#instagramBackground
+{
+  margin-top: 3% !important;
+}
+
+.tickets
+{
+/*  background: url("../img/luxury.jpg"); */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(49%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 49%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+/**Organizer cards**/
+#flex
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.organizercard
+{
+/*  background-color: 	rgba(220,53,69,0.5); */
+    background-color: rgba(41,47,51,0.9);
+    border-radius: 7px;
+    height: 20em;
+    width: 35em;
+    margin: 2.5em;
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25); */
+}
+
+.organizercard p
+{
+    color: white;
+    font-weight: 100;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.organizercard .quote
+{
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+}
+
+.organizercard .subtitle
+{
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.organizercard h1
+{
+  margin-top: 10px;
+}
+
+.panel-heading .accordion-toggle:after
+{
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after
+{
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.program-title
+{
+  font-size: 1.5em;
+  color: #f7f7f7 !important;
+}
+.panel, .panel-heading
+{
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.panel-body
+{
+  border-top: 0px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+}
+.programme-text
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    width: 40%;
+}
+
+.programme-text-wide
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    width: 80%
+}
+
+.programme-image
+{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+  width: 25%;
+  height: auto;
+  margin-bottom:2%;
+}
+
+.programme-image-wide
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.programme-text-flex
+{
+    flex-basis: 40%;
+}
+.programme-image-flex
+{
+    flex-basis: 40%;
+}
+.programme-bulletin
+{
+    color: #f7f7f7;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 200;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption
+{
+    color: #f7f7f7
+}
+
+
+/**Footer**/
+
+hr.style13
+{
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+footer
+{
+    margin-top: 60vh;
+    padding-top: 15vh;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to bottom,rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(to bottom,rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(to bottom,rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0.2)); /*Standard*/
+}
+
+footer img
+{
+    min-height: 65px;
+    width: auto;
+    overflow: visible;
+}
+
+footer .row
+{
+    width: 95%;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+footer .copyright
+{
+    text-align: center;
+    color: white;
+    margin: 5px auto 15px auto;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+footer a
+{
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+.fa:hover
+{
+    color: white;
+}
+
+.k18
+{
+    font-family: lobster;
+    color: #b60404;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 1vh;
+    white-space: nowrap;
+}
+
+.nelivitonenmobiili
+{
+    display: none;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th { /**
+   background-color: rgba(255, 0, 0, 0.2) !important; **/
+
+ }
+
+ .table-striped>tbody>tr:nth-of-type(odd) {
+
+    background: -moz-linear-gradient(left, rgba(182, 4, 4, 0) 0%, rgba(182, 4, 4, 0.5) 49%, rgba(182, 4, 4, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(182, 4, 4, 0)), color-stop(49%, rgba(182, 4, 4, 0.5)), color-stop(100%, rgba(182, 4, 4, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(182, 4, 4, 0) 0%, rgba(182, 4, 4, 0.5) 49%, rgba(182, 4, 4, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(182, 4, 4, 0) 0%, rgba(182, 4, 4, 0.5) 49%, rgba(182, 4, 4, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(182, 4, 4, 0) 0%, rgba(182, 4, 4, 0.5) 49%, rgba(182, 4, 4, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(182, 4, 4, 0) 0%, rgba(182, 4, 4, 0.5) 49%, rgba(182, 4, 4, 0) 100%);
+    /* W3C */
+
+ }
+
+ td, th
+ {
+   border-top: 0px !important;
+   color: #f7f7f7;
+   font-family: 'Advent Pro', sans-serif;
+   font-size: 1.5em;
+ }
+
+/** Media Querys **/
+
+@media only screen and (max-width: 480px)
+{
+    .k18
+    {
+        font-size: 3.5em;
+    }
+
+    .nelivitonennormi
+    {
+        display: none;
+    }
+
+    .nelivitonenmobiili
+    {
+        display: block;
+    }
+
+    .container img
+    {
+      height: 4em;
+    }
+
+    .container h4
+    {
+      font-family: advent pro;
+      color: #b60404;
+      font-size: 2em;
+      font-weight: 800;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px)
+{
+    .k18
+    {
+        font-size: 4em;
+    }
+
+    .OF
+    {
+        max-height: 105px !important;
+        width: auto !important;
+    }
+
+    .nelivitonennormi
+    {
+        margin-top: 2em;
+    }
+
+    .container img
+    {
+      height: 5em;
+    }
+
+    .container h4
+    {
+      font-family: advent pro;
+      color: #b60404;
+      font-size: 3em;
+      font-weight: 800;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)
+{
+    .socialstuff .instagram
+    {
+        min-width: 320px !important;
+        min-height: 500px;
+        height: 500px !important;
+        margin-top: 20px;
+    }
+
+    .OF
+    {
+        max-height: 120px !important;
+        width: auto !important;
+    }
+
+    footer i
+    {
+        margin-top: 2vh;
+        font-size: 5em !important;
+        vertical-align: middle;
+    }
+
+    .nelivitonennormi
+    {
+        margin-top: 2vh;
+        min-width: 23vw !important;
+    }
+
+    .container img
+    {
+      height: 8em;
+    }
+
+    .container h4
+    {
+      font-family: advent pro;
+      color: #b60404;
+      font-size: 3.5em;
+      font-weight: 800;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .k18
+    {
+        font-size: 5em;
+        padding-top: 0;
+        padding-left: 30px;
+        margin-left: auto;
+    }
+
+    .OF
+    {
+        max-height: 120px !important;
+        width: auto !important;
+    }
+
+    .nelivitonennormi
+    {
+        margin-top: 1.65em;
+    }
+
+    footer i
+    {
+        margin-top: 2vh;
+        font-size: 5em !important;
+        vertical-align: middle;
+    }
+
+    .container img
+    {
+      height: 9em;
+    }
+
+    .container h4
+    {
+      font-family: advent pro;
+      color: #b60404;
+      font-size: 4em;
+      font-weight: 800;
+    }
+
+}
+
+@media only screen and (max-width: 1292px)
+
+{
+    #video-background
+    {
+    position: absolute;
+    top: -25% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .k18
+    {
+        font-size: 6.5em;
+        padding-top: 0;
+        padding-left: 30px;
+        margin-left: auto;
+    }
+
+    .OF
+    {
+        max-height: 13vh !important;
+        width: auto !important;
+    }
+
+    .nelivitonennormi
+    {
+        margin-top: 1.7em;
+        max-height: 8vh;
+        width: auto;
+    }
+
+    footer i
+    {
+        margin-top: 2vh;
+        font-size: 6.2em !important;
+        vertical-align: middle;
+    }
+}
+
+@media only  screen and (min-width: 1200px) and (max-width: 1400px)
+{
+  .container img
+  {
+    height: 11em;
+  }
+
+  .container h4
+  {
+    font-family: advent pro;
+    color: #b60404;
+    font-size: 5em;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px)
+{
+  .container img
+  {
+    height: 13em;
+  }
+
+  .container h4
+  {
+    font-family: advent pro;
+    color: #b60404;
+    font-size: 5em;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 992px)
+{
+  #instagramBackground
+  {
+    margin-top: 0 !important;
+  }
+}
