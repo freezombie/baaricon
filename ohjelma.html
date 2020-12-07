@@ -1,0 +1,448 @@
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Baaricon</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="expires" content="sat, 21 Oct 2018">
+         <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <!-- Own CSS -->
+        <link href="css/custom.css?version=1.33" rel="stylesheet" type="text/css"/>
+
+
+        <!-- External JS files -->
+        <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <!--<script src="js/popper.min.js" type="text/javascript"></script>-->
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+        <!--Navigointi-->
+
+        <nav class="navbar navbar-inverse"> <!-- navbar-inverse -->
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-content" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/baaricon_korkki_b60404.png" style="height:1em; margin-top:-10px;"></a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right" id="nav-content">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Etusivu <span class="sr-only">(Nykyinen sivu)</span></a></li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tapahtuma<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tapahtuma.html">Yleistä</a></li>
+                                <li class="active"><a href="ohjelma.html">Ohjelma</a></li>
+                                <li><a href="jarjestyssaannot.html">Järjestyssäännöt</a></li>
+                                <li><a href="majoitus.html">Majoitus</a></li>
+                                <li><a href="tapahtumapaikka.html">Tapahtumapaikka</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="hotstuff.html">HOT STUFF</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="liput.html">Liput</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Yhteystiedot<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="yhteystiedot.php">Ota yhteyttä</a></li>
+                                <li><a href="conitea.html">Järjestäjät</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="english.html">In English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+       <!--Content-->
+       <div class="container-fluid">
+            <div class="content">
+                <div class="maincontent">
+                  <div id="flex" style="margin-top: 1%">                  
+                    <p class="TextContent text-center">Lataa <a href="files/ohjelmalehti.pdf">tästä</a> Baariconin ohjelmalehti itsellesi!</p>
+                  </div>                  
+                  <div class="panel-group" id="ProgramAccordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          <a class="accordion-toggle" data-toggle="collapse" href="#UpperLevelCollapse">Yläkerta</a>
+                        </h3>
+                      </div>
+                      <div id="UpperLevelCollapse" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          <div class="panel-group" id="UpperLevelAccordion">
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                      <a class="accordion-toggle program-title" data-toggle="collapse" href="#AvajaisetCollapse">Avajaiset klo: 16.30-17.00</a>
+                                    </h4>
+                                  </div>
+                                  <div id="AvajaisetCollapse" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p class="TextContent programme-text">
+                                          Kippistellään tapahtuma alkaneeksi. Luvassa yllätysesiintyjä!
+                                      </p>
+                                    </div>
+                                </div>
+                              </div>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#FATCollapse">Flip-A-Table! klo: 17.00-17.30</a>
+                                </h4>
+                              </div>
+                              <div id="FATCollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text">
+                                      Onko sinua koskaan ottanut niin paljon pannuun, että haluaisit vaan flipata? 
+                                      Nyt sinulla on mahdollisuus tässä hyvän mielen kisassa, missä saat flipata pöydän 
+                                      kumoon komeimmalla heitollasi. Mukaan pääsee ilmoittautumaan Baariconissa paikan 
+                                      päällä ja ensimmäiset 5 kisaajaa otetaan mukaan kilpailuun!
+                                  </p>
+                                  <img src="img/flip_a_table.jpg" alt="Flip-A-Table Logo" class="img-responsive programme-image"/>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle program-title" data-toggle="collapse" href="#DTNCollapse">Disneyn täydelliset naiset klo: 17.30-18.00</a>
+                              </h4>
+                            </div>
+                            <div id="DTNCollapse" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p class="TextContent programme-text">
+                                  Oletko aina miettinyt miltä lempiprinsessasi näyttäisivät nykyaikana, tai mitä he tekisivät? 
+                                  Millaisten prinssien tai prinsessojen kanssa he olisivat naimisissa? Tai entä jos he olisivat tosi tv tähtiä? 
+                                  Onneksi Show-cosplay-yhdistys OF ry esittää Disneyn täydelliset naiset, joka ottaa inspiraationsa Amerikkalaisista 
+                                  Real House Wives- ohjelmaformaateista. Ilmassa tulee olemaan draamaa, jota kannattaa tulla katsomaan! 
+                                </p>
+                                <img src="img/Disneyn_täydelliset_naiset.png" alt="Disneyn täydelliset naiset Logo" class="img-responsive programme-image"/>
+                              </div>
+                          </div>
+                        </div>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#BLURCollapse">Tanssiryhmä BLUR klo: 18.00-18.30</a>
+                                </h4>
+                              </div>
+                              <div id="BLURCollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text">
+                                    Team BLUR on kahden odottemita-tanssiryhmän yhteistyönä syntynyt collab-ryhmä! Tiimi on Linni ja Anni (PUREmode, vas.) 
+                                    ja Pipa ja Krisu (BLUFF, oik.).
+                                  </p>
+                                  <figure class="programme-image">
+                                    <img src="img/BLUR.jpg" alt="BLUR" class="img-responsive"/>
+                                    <figcaption>Valokuva: Sami Räbinä</figcaption>
+                                  </figure>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle program-title" data-toggle="collapse" href="#CosplayCollapse">Cosplaykilpailu klo: 19.00-19.30</a>
+                              </h4>
+                            </div>
+                            <div id="CosplayCollapse" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p class="TextContent programme-text">
+                                  Kaipaatko rentoa pukukisaa ilman turhaa tiukkapipoisuutta? Baariconin Hall cosplay-kilpailu voi olla juuri sinun juttusi!
+                                  <br><br>
+                                  Baariconin Hall cosplay-kisa on rento kisamuoto missä ei takerruta liikaa tuijottamaan saumoja, vaan tärkeämpää on kantajalleen 
+                                  sopiva toimiva kokonaisuus. Hall cosplay-kilpailu tarkoittaa, että kisaan ei ole mahdollista ilmoittautua ennakkoon vaan 
+                                  osallistujat etsitään tapahtumapaikalta cosplayhin sonnustautuneista kävijöistä. Tuomarointiin kuuluu se miten pukuilija 
+                                  kantaa asuaan ja esittelee sitä lavalla. Tuo mukanasi persoonaa ja rentoa meininkiä ja tärkeintä on pitää hauskaa lavalla!
+                                  <br><br>
+                                  Cosplaykisan säännöt:
+                                  <br><br></p>
+                                  <img src="img/Baari cossi003.jpg" alt="Cosplay-kilpailu" class="img-responsive programme-image"/>
+                                  <table class="table table-striped">
+                                    <tr>
+                                      <th>
+                                        1
+                                      </th>
+                                      <td>
+                                        Kisaan ei ole mahdollista ilmoittautua ennakkoon vaan osanottajat valikoidaan tapahtumapaikalla. 
+                                        Mahdollisuuksia päästä mukaan parantaa jos olet tapahtumapaikalla klo 17:00 - 17:45 välisenä aikana. 
+                                        Kisaajien valinnat tekevät henkilöt kiertävät tähän aikaan etsimässä kisaajia. Kisaajia otetaan mukaan 10 kappaletta.
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        2
+                                      </th>
+                                      <td>
+                                        Voit kisata vain yksilönä.  
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        3
+                                      </th>
+                                      <td>
+                                        Kilpailu käydään klo 19:00 tapahtumapaikan yläkerrassa. Kisamuoto on lavajuoksu missä saavut lavalle,
+                                         poseeraat tai esiinnyt haluamasi ajan ja poistut lavalta.
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        4
+                                      </th>
+                                      <td>
+                                        Pukujen lähteitä tai lähde maata ei ole rajoitettu eli puku voi olla mistä tahansa pelistä, elokuvasta tai kirjasta. 
+                                        Kisassa sallitaan myös omat hahmot.
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        5
+                                      </th>
+                                      <td>
+                                        Puku voi olla itse tehty tai ostoasu.
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        6
+                                      </th>
+                                      <td>
+                                        Esiintymispaikkaan on mahdollista käydä tutustumassa, mutta varsinaisia lavaharjoituksia kisassa ei ole.
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>
+                                        7
+                                      </th>
+                                      <td>
+                                        Et saa tuoda lavalle mitään nestemäistä tai vaikeasti siivottavaa. Glitteri ja pieni silppu on siis kielletty. 
+                                        Puku ei saa myöskään rajoittaa sinua liikaa eli sinun tulee päästä lavalle ja lavalta pois itse.
+                                      </td>
+                                    </tr> 
+                                  </table>
+                                  <br><br>
+                                  <p class="TextContent programme-text">
+                                    Palkinnot:<br>
+                                    Tuomariston valitsemat parhaat asukokonaisuudet palkitaan Eurokankaan lahjakorteilla.<br></p>
+                                    <p class="TextContent programme-text">
+                                    Jos sinulla on kysyttävää, otathan yhteyttä osoitteeseen contact@baaricon.fi</p>
+                                  
+                              </div>
+                          </div>
+                        </div>                          
+                        <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#BurlesqueCollapse">Kinky Carnival Burlesque klo: 20.00-20.30</a>
+                                </h4>
+                              </div>
+                              <div id="BurlesqueCollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text">
+                                    Kinky Carnival Burlesque tarjoaa Baariconissa upeaa oululaista burleski osaamista!
+                                    <br><br>
+                                    Miss Lily Miu on Baariconia ajatellen muuntaunut suloisen poskia kuumottavaksi puputytöksi,
+                                    joka takuulla ei jätä ketään kylmäksi viehkeillä pompahduksillaan. Hän on villieläinten tapaan keräämässä
+                                    itselleen lämmintä rasvakerrosta aikataulutetulla porkkanakuurilla, jota edes esiintymisaikataulut eivät saa keskeyttää.
+                                    Mitä tapahtuu, jos porkkanaa ei saakaan oikeaan aikaan? Vain yleisö voi sen tietää!
+                                  </p>
+                                  <img class="programme-image" src="img/MissLilyMiu.jpg" alt="Miss Lily Miu" class="img-responsive"/>
+                                  <p class="TextContent programme-text">
+                                    Kanssamme animemaailmaan molskahtaa O'detta Opium, tällä kertaa pick-upin ominaisuudessa.
+                                    Hän saattaa lavalle monenkirjavia hahmoja, aina huumorin pilke silmäkulmassa. Burleskia O'detta on tehnyt vuodesta 2016,
+                                    eikä loppua näy. Pukekaa siis snorkkelit, sillä Baariconissa tavataan!
+                                  </p>
+                                  <img class="programme-image" src="img/OdettaOpium.jpg" alt="Odetta Opium" class="img-responsive"/>
+                                  <p class="TextContent programme-text">
+                                    Ruby La Rouge on Oululainen burleskitaiteilija joka on hurahtanut perinteisen burleskin magiaan,
+                                    sekoitellen siihen sekaan omat omituiset mausteensa!
+                                    Tämä huumaava diiva on esiintyjänä taattua tyylikkyyttä, sensuellia voimaa ja mukaansa tempaavaa ilmeikkyyttä.
+                                    Hän vangitsee katsojansa ja pitää tätä hetkessä – punaisessa hetkessä, joka on ihan Rubyn oma."
+                                    Tule paikalle katsomaan minkä värisen hetken Ruby on teille tällä kertaa loitsinut
+                                  </p>
+                                  <img class="programme-image" src="img/RubyLaRouge.jpg" alt="Ruby La Rouge" class="img-responsive"/>
+                                  <p class="TextContent programme-text" style="white-space: no-wrap;">Lisää ihanista Kinkuista voit lukea osoitteesta:</p> <a class="programme-image" style="font-size: 1.5em;">http://kinkycarnivalburlesque.com/</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#NEKACollapse">NEKA as N-RAVE klo: 20.30-21.30</a>
+                                </h4>
+                              </div>
+                              <div id="NEKACollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text">
+                                    NEKA as N-RAVE tulee taas!
+                                    Tällä kertaa conipiireistä tuttu DJ, ja teeman mukaan muokkautuva muuten muodoton olento laittaa parempaa 
+                                    päälle ja soittelee illan hämärtyessä sellaista soundia, että sukat pyörii jalassa ja peruukit meinaa irrota! 
+                                    Groovia tulee löytymään ja hitusen myöhemmin käännytään hardimman puolelle varmistamaan että meno on hyvä! 
+                                    <br>
+                                    <br>
+                                    Aika siis hetkeksi laskea juotavat hetkeksi alas (tai hakea lisää) ja antaa tanssilajan vipattaa, 
+                                    tai sitten ihan vain tulla nauttimaan musiikista!
+                                  </p>
+                                  <img class="programme-image" src="img/n-rave.png" alt="N-RAVE" class="img-responsive"/>
+                                </div>
+                            </div>
+                          </div>  
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#PaattajaisetCollapse">Päättäjäiset klo: 21.30-22.00</a>
+                                </h4>
+                              </div>
+                              <div id="PaattajaisetCollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text-wide">
+                                      On aika paketoida Baaricon. Baaricon päättyy, mutta 45 Special on auki aina aamun pikkutunneille eli klo: 04.30 saakka.<br><br> 
+                                      Tapahtuman päättäjäisissa korviimme kantautuu sulosointuja. Mana ja Jänis ovat todistaneet duettotaitonsa yksityisesti, 
+                                      mutta miten käy, kun pitäisi vihdoin nousta lavalle? Todennäköisesti meno äityy eläimelliseksi ja jonkinlainen valtataistelu 
+                                      siitäkin saadaan aikaan. Tule todistamaan tätä ensiesiintymistä, jossa joku toivottavasti lopulta kruunataan! 
+                                  </p>                                  
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel default"> <!-- tässä käsittääkseni pitäisi alkaa keskikerros -->
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" href="#MiddleLevelCollapse">Keskikerros</a>
+                    </h3>
+                  </div>
+                  <div id="MiddleLevelCollapse" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <div class="panel-group" id="MiddleLevelAccordion">
+                        <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a class="accordion-toggle program-title" data-toggle="collapse" href="#MCMCCollapse">Most Casual Mahjong Club klo: 17.00-21.30</a>
+                                </h4>
+                              </div>
+                              <div id="MCMCCollapse" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p class="TextContent programme-text">
+                                      Tapahtuman keskikerroksessa voi nauttia erilaisista lautapeleistä ja tutustua mahjongiin. Mahjong on alunperin Kiinasta lähtöisin oleva uhkapeli, 
+                                      jota pelataan korttien sijaan tiilillä. Sääntöjärjestelmiä on pelin satojen vuosien historian aikana kertynyt monia, mutta me opetamme japanilaista riichi-mahjongia. 
+                                      Pelin tarkoituksena on kerätä tiilistä yhdistelmiä ja tätä kautta voittava käsi.
+                                      <br><br>Most Casual Mahjong Club on Oulun paras mahjong-seura ja haluamme levittää mahjongin ilosanomaa eteenpäin. Meidät tunnetaan hyvästä seurasta ja huonoista vitseistä.
+                                      <br><br>Tervetuloa mukaan opettelemaan
+                                  </p>
+                                  <img class="programme-image" src="img/mahjong.JPG" alt="Mahjong" class="img-responsive"/>                                  
+                                </div>
+                            </div>
+                          </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <p class="program-title">45 Specialin keittiö avoinna klo: 17.00 lähtien.</p>
+                            </h4>
+                          </div>                          
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel default"> <!-- tässä käsittääkseni pitäisi alkaa alinkerros -->
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" href="#LowerLevelCollapse">Kellari</a>
+                </h3>
+              </div>
+              <div id="LowerLevelCollapse" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <div class="panel-group" id="LowerLevelCollapse">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a class="accordion-toggle program-title" data-toggle="collapse" href="#MaistilaCollapse">Maistilan olut-tasting klo: 20.30-21.30</a>
+                            </h4>
+                          </div>
+                          <div id="MaistilaCollapse" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img class="programme-image-wide" src="img/Maistila.jpg" alt="Maistila" class="img-responsive"/>    
+                              <p class="TextContent programme-text-wide">
+                                  <br><i>Paikallinen pienpanimo Maistila esittelee ja maistattaa viittä erityylistä olutta tuotannostaan. Samalla sivutaan raaka-aineita, valmistusta ja olutkulttuuria ylipäätään. 
+                                    Olut on rikas ja monipuolisesti erilaisiin tilanteisiin soveltuva juoma. Enenevissä määrin myös ruuanlaitossa ja aterian yhteydessä. Asiaa on paljon, kysymyksiä ja niihin 
+                                    vastauksia sitäkin enemmän.</i>
+                                  <br><br>Yhden oluttarjoittimen hinta on ennakkoonilmoittautuneille 20€ ja paikan päällä ilmoittautuneille 25€. Yhden tarjottimen voi jakaa <b>maksimissaan 3 henkilön kesken.</b> 
+                                  Maisteluun pääsee osallistumaan <b>VAIN</b> Baariconin kävijät (rannekkeet ennakkoon 8€/ovelta 10€).
+                                  <br><br>Paikan päällä voitte ilmoittautua mukaan olutmaisteluun <b>keskikerroksen baaritiskillä,</b> missä pääsette maksamaan suoraan osallistumismaksun (25€/tarjotin) ja saatte Maistelu-lipukkeen. Ennakkoilmoittautuneet voivat ilmoittautua samaisessa paikkaan, missä teiltä veloitetaan osallistumismaksu (20€/tarjotin) ja saatte samanlaisen Maistelu-lipukkeen. Lipuketta näyttämällä pääsette yksin tai kavereiden kanssa oluenmaisteluun mukaan!
+                                  <br><br>Jos tiedät varmasti osallistuvasi olutmaisteluun, ennakkoilmoittaudu mukaan! Lähetä osoitteeseen contact@baaricon.fi osallistumisviestisi otsikolla <i>“Oluenmaisteluun osallistuminen”</i> <b>viimeistään maanantaina 19.11.2018 klo: 23:59</b> niin olet meiningissä mukana! Viestissä tulee olla seuraavat tiedot:
+                              </p>
+                                  <ul>
+                                    <li class="programme-bulletin">Nimi tai nimet</li>
+                                    <li class="programme-bulletin">Otatteko kaikki yhteisen tarjottimen (max. 3 hlö/tarjotin), otatteko kaikki oman tarjottimen vai ottaako osa yhteisen ja joku oman?</li>
+                                  </ul>
+                                  <p class="TextContent programme-text-wide">
+                                  <b>esim.</b><i> Matti Meikäläinen ja Niina Nimetön ottavat yhdessä yhden tarjottimen. Tuomas Tuntematon ottaa yhden tarjottimen itselleen kokonaan.</i>
+                                  <br><br>Huomioithan, että ennakkoilmoittautuminen on sitova ja maisteluun osallistuminen edellyttää Baariconin rannekkeen hankintaa.
+                              </p>                                                            
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- koko homma loppuu -->
+
+
+        <!--Footer-->
+        <footer>
+            <hr class="style13">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 hidden-xs col-md-offset-1"><a href="http://www.operaatiofredrik.com"><img src="img/fredrik_logo.PNG" class="img-responsive OF center-block" alt="Show-cosplay-yhdistys OF ry"></a></div>
+                <div class="col-md-3 visible-md visible-lg"><a href="http://www.45special.com/"><img src="img/45_special_inline.png" class="img-responsive nelivitonennormi center-block" alt="45 Special"> <img src="img/45-icon.png" class="img-responsive nelivitonenmobiili center-block" alt="45 Special"></a></div>
+                <div class="col-md-1 col-sm-1 col-xs-4 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 text-center"><a href="https://twitter.com/baaricon"><i class="fa fa-twitter-square fa-3x"></i></a></div>
+                <div class="col-md-1 col-sm-1 col-xs-4 col-xs-offset-0 col-sm-offset-1 col-md-offset-0 text-center"><a href="https://www.facebook.com/Baaricon/"><i class="fa fa-facebook-square fa-3x"></i></a></div>
+                <div class="col-md-1 col-sm-1 col-xs-4 col-xs-offset-0 col-sm-offset-1 col-md-offset-0 text-center"><a href="https://www.instagram.com/baaricon/"><i class="fa fa-instagram fa-3x"></i></a></div>
+                <div class="col-xs-4 visible-xs"><a href="http://www.operaatiofredrik.com"><img src="img/fredrik_logo.PNG" class="img-responsive OF center-block" alt="Show-cosplay-yhdistys OF ry"></a></div>
+                <div class="col-md-2 hidden-sm col-xs-4 col-md-offset-0"><h1 class="k18">K-18</h1></div>
+                <div class="hidden-lg hidden-md col-sm-3 col-xs-4 col-sm-offset-1 col-md-offset-2"><a href="http://www.45special.com/"><img src="img/45_special_inline.png" class="img-responsive nelivitonennormi center-block" alt="45 Special"><img src="img/45-icon.png" class="img-responsive nelivitonenmobiili center-block" alt="45 Special"></a></div>
+                <div class="col-sm-4 visible-sm col-sm-offset-1"><h1 class="k18">K-18</h1></div>
+            </div>
+            <div class="row">
+            <div class="col-lg-12 copyright">
+                <p class="text-uppercase">&copy Antti Pikkuaho & Sami Räbinä 2018</p>
+            </div>
+            </div>
+            </div>
+        </footer>
+  </body>
+</html>
